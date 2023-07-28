@@ -1,0 +1,280 @@
+header {
+  position: fixed;
+  width: 17%;
+  height: 101vh;
+  background-color: #10223A;
+  top: -8px;
+  left: -8px;
+}
+header .redo {
+  margin-top: 70px;
+}
+header .redo .hedclas {
+  position: relative;
+  right: 20px;
+}
+header .redo .hedclas .homes {
+  color: #10223A;
+  padding: 10px;
+  background-color: orange;
+  border-radius: 62% 38% 82% 18%/54% 61% 39% 46%;
+}
+header .redo .hedclas .homes:hover {
+  border-radius: 62% 38% 82% 18%/54% 61% 39% 46%;
+  color: #10223A;
+}
+header .redo .hedclas li {
+  margin-top: 30px;
+  list-style: none;
+}
+header .redo .hedclas li .aaa {
+  position: relative;
+  left: 100%;
+  opacity: 0;
+}
+header .redo .hedclas li .aaa:hover {
+  background-color: whitesmoke;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 20px;
+  opacity: 99;
+}
+header .redo .hedclas li .aaa li a {
+  padding: 20px;
+  color: #10223A;
+}
+header .redo .hedclas li a {
+  text-decoration: none;
+  color: whitesmoke;
+  transition: 0.6s;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+header .redo .hedclas li a:hover {
+  border-radius: 38% 62% 18% 82%/61% 54% 46% 39%;
+  background-color: orange;
+  padding: 6px;
+  color: #10223A;
+}
+header .redo .diven {
+  position: relative;
+  bottom: 80px;
+}
+header .redo .diven span {
+  color: white;
+}
+header .redo .diven span i {
+  color: orange;
+}
+header .redo .diven p {
+  color: white;
+}
+header .redo .diven p i {
+  color: orange;
+}
+header .redo .diven .cont i {
+  color: white;
+  transition: 0.6s;
+  margin: 10px;
+}
+header .redo .diven .cont i:hover {
+  color: orange;
+}
+
+.sec1 .box {
+  background-image: url("https://waggytails.codelayers.net/images/pageheader.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sec1 .box .content {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+#start .book {
+  margin-left: 170px;
+  margin-top: 100px;
+  border-radius: 40px;
+  padding: 20px 0px;
+  background-color: #FDF3E2;
+  position: relative;
+}
+#start .book .person {
+  margin-top: 25px;
+}
+#start .book .person a {
+  border-radius: 8mm;
+  text-decoration: none;
+  font-weight: 700;
+  color: #10223a;
+  background-color: orange;
+  padding: 10px 45px;
+  transition: 0.4s;
+}
+#start .book .person a:hover {
+  color: #fff;
+  background-color: #10223a;
+}
+#start .book .imgbox {
+  position: absolute;
+  top: -120px;
+  left: 90px;
+}
+#start p {
+  font-size: 17px;
+  font-weight: 500;
+}
+#start p i {
+  padding-right: 2px;
+  color: orange;
+}
+
+#camp .comp {
+  margin-left: 170px;
+  margin-top: 100px;
+  border-radius: 40px;
+  padding: 20px 0px;
+  background-color: #FDF3E2;
+  position: relative;
+}
+#camp .comp .object {
+  margin-top: 80px;
+}
+#camp .comp .object a {
+  border-radius: 8mm;
+  text-decoration: none;
+  font-weight: 500;
+  color: #10223a;
+  background-color: orange;
+  padding: 10px 45px;
+  transition: 0.4s;
+}
+#camp .comp .object a:hover {
+  color: #fff;
+  background-color: #10223a;
+}
+#camp .comp .imgrumble {
+  position: absolute;
+  top: -100px;
+  left: 80px;
+}
+#camp p {
+  font-size: 15px;
+  font-weight: 500;
+}
+#camp p i {
+  padding-right: 2px;
+  color: orange;
+}
+
+#open .pen {
+  margin-left: 170px;
+  margin-top: 100px;
+  border-radius: 40px;
+  padding: 20px 0px;
+  background-color: #FDF3E2;
+  position: relative;
+}
+#open .pen .space {
+  margin-top: 50px;
+}
+#open .pen .space a {
+  border-radius: 9mm;
+  text-decoration: none;
+  font-weight: 500;
+  color: #10223a;
+  background-color: orange;
+  padding: 10px 45px;
+  transition: 0.4s;
+}
+#open .pen .space a:hover {
+  color: #fff;
+  background-color: #10223a;
+}
+#open .pen .settings {
+  position: absolute;
+  top: -100px;
+  left: 80px;
+}
+#open p {
+  font-size: 15px;
+  font-weight: 500;
+}
+#open p i {
+  padding-right: 2px;
+  color: orange;
+}
+
+#box5 .container h6 i {
+  color: orange;
+}
+#box5 h3 i {
+  color: orange;
+}
+#box5 strong i {
+  color: orange;
+}
+
+#sec2 .container span i {
+  color: orange;
+}
+
+#pick .container a {
+  background: var(--maincolor);
+  color: var(--secondcolor);
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  border: 0;
+  position: relative;
+  overflow: hidden;
+  font-weight: 700;
+  margin-top: 20px;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+  padding: 10px 40px;
+  border-radius: 20px;
+  line-height: 1.5;
+  visibility: visible;
+  --secondcolor: #10223A;
+  --maincolor: #FAB005;
+}
+#pick .container a:hover {
+  color: #fff;
+  background-color: orange;
+}
+#pick .container span i {
+  color: orange;
+}
+
+#Bar .container a {
+  background: var(--maincolor);
+  color: var(--secondcolor);
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  border: 0;
+  position: relative;
+  overflow: hidden;
+  font-weight: 700;
+  margin-top: 20px;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+  padding: 10px 40px;
+  border-radius: 20px;
+  line-height: 1.5;
+  visibility: visible;
+  --secondcolor: #10223A;
+  --maincolor: #FAB005;
+}
+#Bar .container a:hover {
+  color: #fff;
+  background-color: orange;
+}/*# sourceMappingURL=style.css.map */
